@@ -1,16 +1,35 @@
-# project_1
 
-A new Flutter project.
+----------
+# Project Mahidol flutter ITDS283 🖐️
 
-## Getting Started
+โปรเจคนี้จัดทำขึ้นคือเป็นผลงานของนักศึกษาที่กำลังศึกษาอยู่ที่มหาวิทยาลัยมหิดล รุ่นที่1 สาขา DST คณะ ICT
 
-This project is a starting point for a Flutter application.
+# 📌 Reference
+Reference 1 : 👇
 
-A few resources to get you started if this is your first Flutter project:
+    https://www.rottentomatoes.com/m/the-web/reviews
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Reference 2 : 👇
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+    https://letterboxd.com/film/shazam-fury-of-the-gods/
+
+<br>
+
+[<h1 align="center">
+  ![flutter-image]][flutter-url]<br>
+  [![Bankz4-image]][Bankz4-url]<br>
+  [![Kit-image]][Kit-url]<br>
+  [![mind-image]][mind-url]
+</h1>
+
+[flutter-image]: https://img.shields.io/badge/flutter-3.7.11-red
+[flutter-url]: https://flutter.dev/
+
+[Bankz4-image]: https://img.shields.io/badge/Amonchai--green?logo=github&style=social
+[Bankz4-url]: https://github.com/byz7day/
+
+[Kit-image]: https://img.shields.io/badge/Thanakrit--green?logo=github&style=social
+[Kit-url]: https://github.com/Thanakrit031
+
+[mind-image]: https://img.shields.io/badge/Ravisara--green?logo=github&style=social
+[mind-url]: https://github.com/6487057Ravisara
