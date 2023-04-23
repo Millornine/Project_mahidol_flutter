@@ -63,18 +63,17 @@ class HomePage extends StatelessWidget {
                                 height: 20,
                               ),
                               Text(
-                                "Movie Name: " +snapshot.data[index]["original_title"],
+                                "Movie Name: " +
+                                    snapshot.data[index]["original_title"],
                                 style: TextStyle(color: Color(0xff868597)),
-                              
                               ),
                               SizedBox(
                                 height: 10,
                               ),
-                              
                               Container(
                                 height: 100,
                                 child: Text(
-                                  'Rating: ' +
+                                  'Rating⭐: ' +
                                       (snapshot.data[index]["vote_average"])
                                           .toString(),
                                   style: TextStyle(color: Color(0xff868597)),
@@ -85,7 +84,20 @@ class HomePage extends StatelessWidget {
                                   Navigator.push(
                                       context,
                                       MaterialPageRoute(
-                                          builder: (context) => DetailPage()));
+                                          builder: (context) => DetailPage(
+                                                name: snapshot.data[index]
+                                                    ['original_title'],
+                                                posterurl:
+                                                    'https://image.tmdb.org/t/p/w500' +
+                                                        snapshot.data[index]
+                                                            ['poster_path'],
+                                                description: snapshot
+                                                    .data[index]['overview'],
+                                                rating: snapshot.data[index]
+                                                        ['vote_average']
+                                                    .toString(),
+                                                
+                                              )));
                                 },
                                 style: ElevatedButton.styleFrom(
                                     backgroundColor: Colors.orange),
