@@ -39,6 +39,12 @@ dependencies:
   tmdb_api:
   http: ^0.13.5
   comment_box: ^0.0.18
+  sqflite: ^2.2.7
+  path: ^1.8.2
+  provider: ^6.0.5
+  shared_preferences: ^2.1.0
+  firebase_core: ^2.10.0
+  firebase_auth: ^4.4.2
 
 dev_dependencies:
   flutter_test:
@@ -93,3 +99,5 @@ flutter:
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages
+  assets:
+    - assets/images/Logo.jpg

@@ -1,5 +1,7 @@
+import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:comment_box/comment/comment.dart';
+import 'package:intl/intl.dart';
 
 class CommentPage extends StatefulWidget {
   @override
@@ -91,12 +93,14 @@ class _CommentPage extends State<CommentPage>{
             if (formKey.currentState!.validate()) {
               print(commentController.text);
               setState(() {
+                DateTime dateTime = DateTime.now();
+                String formattedDate = DateFormat('yyyy-MM-dd HH:mm:ss').format(dateTime);
                 var value = {
-                  'name': 'New User',
+                  'name': FirebaseAuth.instance.currentUser!.uid,
                   'pic':
                       'https://cdn-icons-png.flaticon.com/512/6386/6386976.png',
                   'message': commentController.text,
-                  'date': '2021-01-01 12:00:00'
+                  'date': formattedDate
                 };
                 filedata.insert(0, value);
               });
