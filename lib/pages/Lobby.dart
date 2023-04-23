@@ -42,26 +42,28 @@ class LobbyPage extends StatelessWidget {
                           },
                           child: Padding(
                             padding: const EdgeInsets.all(26.0),
-                            child: Container(
-                                height: 62,
-                                width: 377,
-                                decoration: BoxDecoration(
-                                    borderRadius: BorderRadius.circular(50),
-                                    gradient: const LinearGradient(
-                                        colors: [
-                                          Color.fromARGB(255, 231, 200, 200),
-                                          Color.fromARGB(255, 231, 200, 200),
-                                          Color.fromARGB(255, 231, 200, 200)
-                                        ],
-                                        begin: Alignment.topCenter,
-                                        end: Alignment.bottomCenter)),
-                                child: const Center(
-                                  child: Text(
-                                    "Login",
-                                    style: TextStyle(
-                                        color: Colors.white, fontSize: 16),
-                                  ),
-                                )),
+                            child: Center(
+                              child: Container(
+                                  height: 62,
+                                  width: 377,
+                                  decoration: BoxDecoration(
+                                      borderRadius: BorderRadius.circular(50),
+                                      gradient: const LinearGradient(
+                                          colors: [
+                                            Color.fromARGB(255, 231, 200, 200),
+                                            Color.fromARGB(255, 231, 200, 200),
+                                            Color.fromARGB(255, 231, 200, 200)
+                                          ],
+                                          begin: Alignment.topCenter,
+                                          end: Alignment.bottomCenter)),
+                                  child: const Center(
+                                    child: Text(
+                                      "Login",
+                                      style: TextStyle(
+                                          color: Colors.white, fontSize: 16),
+                                    ),
+                                  )),
+                            ),
                           ),
                         )
                       ],
